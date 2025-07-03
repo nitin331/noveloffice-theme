@@ -1,11 +1,4 @@
-/*
-Theme Name: Novel Office Custom Theme
-Author: Your Name
-Description: Custom WordPress Theme for Novel Office Homepage
-Version: 1.0
-*/
 
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +27,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* ====== Hero Header (Logo + Nav) ====== */
+/* ====== Hero Header ====== */
 .hero-header {
   display: flex;
   justify-content: space-between;
@@ -148,7 +141,7 @@ body {
 
 
 
-/* ====== Hero Slider (Container for Images) ====== */
+/* ====== Hero Slider  ====== */
 .hero-slider {
   position: absolute;
   top: 0;
@@ -211,7 +204,7 @@ body {
   opacity: 0.85;
 }
 
-/* ====== Responsive (Optional) ====== */
+/* ====== Responsive ====== */
 @media (max-width: 768px) {
   .hero-header {
     flex-direction: column;
